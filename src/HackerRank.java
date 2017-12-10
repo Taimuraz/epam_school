@@ -87,5 +87,25 @@ public class HackerRank {
         sc.close();
     }
 
+    public static void javaStaticInitializerBlock(){
+//        static int B;
+//        static int H;
+//        static boolean flag;
+//        static {
+//            try{
+//                Scanner sc= new Scanner(System.in);
+//                flag = true;
+//                B = sc.nextInt();
+//                H = sc.nextInt();
+//                if( B <= 0 || H <= 0){
+//                    flag = false;
+//                    throw new Exception();
+//                }
+//                sc.close();
+//            }catch(Exception e){
+//                System.out.println("java.lang.Exception: Breadth and height must be positive");
+//            }
+//        }
+    }
 }
 
