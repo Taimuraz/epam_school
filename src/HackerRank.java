@@ -74,5 +74,18 @@ public class HackerRank {
             }
         }
     }
+
+    public static void javaEndOfFIle(){
+        Scanner sc = new Scanner(System.in);
+        int count = 1;
+        String s = "";
+        while(sc.hasNext()){
+            s = sc.nextLine();
+            System.out.printf("%d %s%n", count, s);
+            count ++;
+        }
+        sc.close();
+    }
+
 }
 
