@@ -44,11 +44,11 @@ public class HackerStrings {
 
     class MyRegex {
         String num = "([01]?\\d{1,2}|2[0-4]\\d|25[0-5])";
-        String pattern = num + "." +  num + "." +  num + "." + num;
+        String pattern = num + "." + num + "." + num + "." + num;
     }
 
-    public static void ContentExtractor(){
-        Scanner scan  = new Scanner(System.in);
+    public static void ContentExtractor() {
+        Scanner scan = new Scanner(System.in);
         int testCases = Integer.parseInt(scan.nextLine());
         while (testCases-- > 0) {
             String line = scan.nextLine();
@@ -66,7 +66,7 @@ public class HackerStrings {
         scan.close();
     }
 
-    public static void duplicateWords(){
+    public static void duplicateWords() {
         String regex = "\\b(\\w+)(\\W+\\1\\b)+";
         Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
 
@@ -84,6 +84,10 @@ public class HackerStrings {
         }
 
         in.close();
+    }
+
+    public static void userNameValidation() {
+        final String regularExpression = "^[a-zA-Z]\\w{7,29}$";
     }
 }
 
